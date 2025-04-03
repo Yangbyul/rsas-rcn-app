@@ -39,12 +39,16 @@ pip install -r requirements.txt
 
 ### 2. OpenAI API 키 설정
 .streamlit/secrets.toml 파일에 다음과 같이 입력하세요:
-
+```toml
 OPENAI_API_KEY = "sk-xxxxxxxxxxxxxxxxxxxx"
+```
 (이 파일은 .gitignore에 포함되어 있어 GitHub에 업로드되지 않습니다.)
 
 ### 3. 앱 실행
+
+```bash
 streamlit run app.py
+```
 앱 실행 후 브라우저에서 http://localhost:8501 로 접속하면 평가 도구를 사용할 수 있습니다.
 
 ---
